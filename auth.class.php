@@ -33,10 +33,10 @@ class auth extends core {
 	function __construct( $core ) {
 	
 		// SQL Connection Settings
-		$sql_host 	= 'host';		// SQL Hostname
-		$sql_user 	= 'username';		// SQL Username
-		$sql_pass 	= 'password';		// SQL Password
-		$sql_db 	= 'database';		// SQL Database
+		$sql_host 	= '127.0.0.1';		// SQL Hostname
+		$sql_user 	= 'dplyr';		// SQL Username
+		$sql_pass 	= 'dplyr';		// SQL Password
+		$sql_db 	= 'dplyr';		// SQL Database
 		
 		// This is the first call to the 'log' function and requires the 2nd parameter to be TRUE so it starts from the beginning of the file
 		$this->log( "Class initialized.", TRUE );
